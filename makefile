@@ -1,7 +1,7 @@
 all: README.md
 
     README.md: guessinggame.sh
-	echo "## guessinggame.sh" > README.md
+	echo "## guessinggame.sh \n" > README.md
 	echo "##The Unix Workbench \n" >> README.md
 	echo -n "README.md created: " >> README.md
 	date >> README.md
